@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+      <ImageView
+          android:id="@+id/album120_iv"
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:layout_below="@+id/track_title_txt"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="20dp"
+          android:contentDescription="@string/album_image"
+          app:srcCompat="@android:color/holo_blue_bright"
+          />
+      <TextView
+          android:id="@+id/track_title_txt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="20dp"
+          android:text="@string/track_name"
+          android:textAlignment="center"
+          android:textSize="18sp"
+          />
+      <TextView
+          android:id="@+id/artist_title_txt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/album120_iv"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="25dp"
+          android:text="@string/artist_name"
+          android:textAlignment="center"
+          />
+      <TextView
+          android:id="@+id/album_title_txt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/artist_title_txt"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="21dp"
+          android:text="@string/album_name"
+          android:textAlignment="center"
+          />
+      <TextView
+          android:id="@+id/lyrics_txt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/album_title_txt"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="29dp"
+          android:text="@string/no_lyrics_found"
+          />
+    </RelativeLayout>
+  </ScrollView>
+
+</layout>

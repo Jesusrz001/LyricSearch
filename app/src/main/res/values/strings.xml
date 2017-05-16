@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">LyricSearch</string>
+  <string name="track_name">Track Name</string>
+  <string name="album_name">Album Name</string>
+  <string name="artist_name">Artist Name</string>
+  <string name="album_image">Album Image</string>
+  <string name="search_hint">Search</string>
+  <string name="search">Search</string>
+  <string name="no_results">No Results</string>
+  <string name="no_lyrics_found">No lyrics found</string>
+</resources>
