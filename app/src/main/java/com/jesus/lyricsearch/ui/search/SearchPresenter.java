@@ -48,6 +48,7 @@ public class SearchPresenter implements SearchContract.UserActions {
                     }
 
                     @Override public void onFailure(Call<TrackResults> call, Throwable t) {
+                        EspressoIdlingResource.decrement();
                         view.setProgressIndicator(false);
                         view.showErrorMessage();
                     }
